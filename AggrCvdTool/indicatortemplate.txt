@@ -1,0 +1,17 @@
+{
+  "type": "indicator",
+  "name": "indicator:CVD: NM",
+  "data": {
+    "options": {
+      "priceScaleId": "cvd-NM",
+      "color": "rgb(76,175,80)",
+      "lineStyle": 1,
+      "visible": true,
+      "scaleMargins": {
+        "top": 0.03,
+        "bottom": 0.7
+      }
+    },
+    "script": "line(cum(MKT.vbuy - MKT.vsell), title=NM)"
+  }
+}
