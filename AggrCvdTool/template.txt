@@ -3,7 +3,7 @@
   "createdAt": 1648319699212,
   "updatedAt": 1648319807351,
   "name": "Template",
-  "id": "ullo",
+  "id": "dkue",
   "states": {
     "panes": {
       "_id": "panes",
@@ -361,7 +361,7 @@
       },
       "layout": [
         {
-          "i": "chart2",
+          "i": "spot",
           "type": "chart",
           "w": 12,
           "h": 24,
@@ -370,7 +370,7 @@
           "moved": false
         },
         {
-          "i": "chart3",
+          "i": "perps",
           "type": "chart",
           "w": 12,
           "h": 24,
@@ -496,7 +496,7 @@
       },
       "_id": "exchanges"
     },
-    "chart2": {
+    "spot": {
       "indicatorsErrors": {},
       "indicators": {
         "cvd": {
@@ -643,9 +643,9 @@
       "watermarkColor": "rgba(255,255,255,.1)",
       "hiddenMarkets": {},
       "barSpacing": 5.870803857254286,
-      "_id": "chart2"
+      "_id": "spot"
     },
-    "chart3": {
+    "perps": {
       "indicatorsErrors": {},
       "indicators": {
         "cvd": {
@@ -792,7 +792,7 @@
       "watermarkColor": "rgba(255,255,255,.1)",
       "hiddenMarkets": {},
       "barSpacing": 5.017921072180554,
-      "_id": "chart3"
+      "_id": "perps"
     }
   }
 }
